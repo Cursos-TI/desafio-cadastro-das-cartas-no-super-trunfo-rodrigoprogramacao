@@ -4,8 +4,8 @@ int main() {
 char estado1;
 char codigo1[5];
 char cidade1[50];
-int pontos1;
-float area1, pib1, populacao1;
+int pontos1, populacao1;
+float area1, pib1;
 
 printf("CADASTRO CARTA 01 - SUPER TRUNFO!\n");
 
@@ -25,10 +25,10 @@ printf("Digite a área (km²):\n");
 scanf("%f", &area1);
 
 printf("Digite o PIB (milhões de reais):\n");
-scanf("%f, &pib1");
+scanf("%f", &pib1);
 
 printf("Digite o número de pontos turísticos:\n");
-scanf("%d, &pontos1");
+scanf("%d", &pontos1);
 
 printf("\n");
 
