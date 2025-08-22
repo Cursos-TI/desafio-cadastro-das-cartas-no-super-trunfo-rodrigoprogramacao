@@ -1,34 +1,34 @@
 #include <stdio.h>
 
 int main() {
-char estadoA, estadoB;
-char codigoA[5], codigoB[5];
-char cidadeA[50], cidadeB[50];
-int pontosA;
-float areaA, pibA, populacaoA;
+char estado1;
+char codigo1[5];
+char cidade1[50];
+int pontos1;
+float area1, pib1, populacao1;
 
 printf("CADASTRO CARTA 01 - SUPER TRUNFO!\n");
 
 printf("Digite a letra correspondente ao seu Estado:\n");
-scanf(" %c", &estadoA);
+scanf(" %c", &estado1);
 
 printf("Digite sua cidade:\n");
-scanf("%s", &cidadeA);
+scanf("%s", &cidade1);
 
 printf("Digite seu código:\n");
-scanf("%s", &codigoA);
+scanf("%s", &codigo1);
 
 printf("Digite a população:\n");
-scanf("%d", &populacaoA);
+scanf("%d", &populacao1);
 
-printf("Digite a área em km²:\n");
-scanf("%f", &areaA);
+printf("Digite a área (km²):\n");
+scanf("%f", &area1);
 
-printf("Digite o PIB:\n");
-scanf("%f, &pibA");
+printf("Digite o PIB (milhões de reais):\n");
+scanf("%f, &pib1");
 
 printf("Digite o número de pontos turísticos:\n");
-scanf("%d, &pontosA");
+scanf("%d, &pontos1");
 
 printf("\n");
 
@@ -36,15 +36,13 @@ printf("CARTA 01 CADASTRADA COM SUCESSO!\n");
 
 printf("\n");
 
-printf("Estado: %c \n", estadoA);
-printf("Cidade: %s \n", cidadeA);
-printf("Código: %s \n", codigoA);
-printf("População: %d \n", populacaoA);
-printf("Área em km²: %f \n", areaA);
-printf("PIB: %f \n", pibA);
-printf("Número de pontos turísticos: %d \n", pontosA);
-
-
+printf("Estado: %c \n", estado1);
+printf("Cidade: %s \n", cidade1);
+printf("Código: %s \n", codigo1);
+printf("População: %d \n", populacao1);
+printf("Área em km²: %f \n", area1);
+printf("PIB: %f \n", pib1);
+printf("Número de pontos turísticos: %d \n", pontos1);
 
 
     return 0;
