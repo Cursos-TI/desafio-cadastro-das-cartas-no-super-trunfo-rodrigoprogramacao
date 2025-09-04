@@ -3,8 +3,8 @@
 int main() {
     // Declarando variáveis
     char estado1, estado2; // Variável para os estados
-    char codigo1[5], codigo2[5]; // Variável para os códigos
-    char cidade1[50], cidade2[50]; // Variável para as cidades
+    char codigo1[5], codigo2[5]; // Variável para os códigos das cartas
+    char cidade1[20], cidade2[20]; // Variável para as cidades
     int pontos1, pontos2, populacao1, populacao2; // Variáveis de pontos turísticos e população
     float area1, area2, pib1, pib2; // Variáveis de área e PIB
 
@@ -14,11 +14,11 @@ int main() {
     printf("Digite a letra correspondente ao seu Estado:\n");
     scanf(" %c", &estado1);
 
-    printf("Digite sua cidade:\n");
-    scanf("%s", &cidade1);
+    printf("Digite o nome da sua cidade:\n");
+    scanf(" %s", &cidade1);
 
-    printf("Digite seu código:\n");
-    scanf("%s", &codigo1);
+    printf("Digite o código da sua carta:\n");
+    scanf(" %s", &codigo1);
 
     printf("Digite a população:\n");
     scanf("%d", &populacao1);
@@ -51,11 +51,11 @@ int main() {
     printf("Digite a letra correspondente ao seu Estado:\n");
     scanf(" %c", &estado2);
 
-    printf("Digite sua cidade:\n");
-    scanf("%s", &cidade2);
+    printf("Digite o nome da sua cidade:\n");
+    scanf(" %s", &cidade2);
 
-    printf("Digite seu código:\n");
-    scanf("%s", &codigo2);
+    printf("Digite o código da sua carta:\n");
+    scanf(" %s", &codigo2);
 
     printf("Digite a população:\n");
     scanf("%d", &populacao2);
