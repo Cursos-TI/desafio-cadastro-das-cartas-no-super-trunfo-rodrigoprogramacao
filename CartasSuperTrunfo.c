@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    char estado1, estado2;
-    char codigo1[5], codigo2[5];
-    char cidade1[50], cidade2[50];
-    int pontos1, pontos2, populacao1, populacao2;
-    float area1, area2, pib1, pib2;
+    // Declarando variáveis
+    char estado1, estado2; // Variável para os estados
+    char codigo1[5], codigo2[5]; // Variável para os códigos
+    char cidade1[50], cidade2[50]; // Variável para as cidades
+    int pontos1, pontos2, populacao1, populacao2; // Variáveis de pontos turísticos e população
+    float area1, area2, pib1, pib2; // Variáveis de área e PIB
 
     // Cadastrando a carta numero 01
     printf("CADASTRO CARTA 01 - SUPER TRUNFO!\n");
@@ -32,10 +33,8 @@ int main() {
     scanf("%d", &pontos1);
 
     printf("\n");
-
+    // Imprimindo a carta 01
     printf("CARTA 01 CADASTRADA COM SUCESSO!\n");
-
-    printf("\n");
 
     printf("Estado: %c \n", estado1);
     printf("Cidade: %s \n", cidade1);
@@ -45,6 +44,8 @@ int main() {
     printf("PIB: %.3f \n", pib1);
     printf("Número de pontos turísticos: %d \n", pontos1);
 
+    printf("\n");
+    // Cadastrando a carta 02
     printf("CADASTRO CARTA 02 - SUPER TRUNFO!\n");
 
     printf("Digite a letra correspondente ao seu Estado:\n");
@@ -69,10 +70,8 @@ int main() {
     scanf("%d", &pontos2);
 
     printf("\n");
-
+    // Imprimindo a carta 02
     printf("CARTA 02 CADASTRADA COM SUCESSO!\n");
-
-    printf("\n");
 
     printf("Estado: %c \n", estado2);
     printf("Cidade: %s \n", cidade2);
